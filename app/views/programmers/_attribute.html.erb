@@ -1,0 +1,5 @@
+<% programmer.profile_attributes.each do |attribute, value| %>
+    <p>
+        <strong><%= Programmer.attribute_to_s(attribute) %></strong>: <%= value %><br>
+    </p>
+<% end %>
